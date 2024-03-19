@@ -1,4 +1,4 @@
-<div class="app-block himani test-yes{% if section.settings.include_margins %}page-width{% endif %}">
+<div class="app-block himani{% if section.settings.include_margins %}page-width{% endif %}">
   {%- for block in section.blocks -%}
     {% render block %}
   {%- endfor -%}
